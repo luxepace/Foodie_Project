@@ -1,0 +1,208 @@
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 448px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.labelLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  color: var(--gray-900, #111827);
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.login-container {
+  display: flex;
+  padding: 30px 0px 0px 0px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  padding: 0px 40px 24px 40px;
+  align-items: center;
+  align-self: stretch;
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+label {
+  display: block;
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 9px 13px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.checkbox-group {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.checkbox-group label {
+  color: var(--link-color, #3a3395);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+  text-decoration: none;
+}
+.checkbox-group a {
+  color: var(--link-color, #3a3395);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+  text-decoration: none;
+}
+.checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"]:checked::before {
+  content: "✓";
+  display: block;
+  font-size: 13px;
+  color: #000000;
+  text-align: center;
+  line-height: 12px;
+  border-radius: 4px;
+  padding-top: 2px;
+  background: var(--white, #fff);
+}
+.login-button {
+  display: flex;
+  margin: 0px 40px 24px 40px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 10px;
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.857%;
+  cursor: pointer;
+  border-radius: 6px;
+  background: var(--link-color, #3a3395);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.divider {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}
+
+.divider span {
+  color: var(--gray-500, #6b7280);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 142.857%;
+}
+
+.github-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 174px;
+  margin: 0px 40px 32px 40px;
+  flex: 1 0 0;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.github-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--white, #fff);
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+}
